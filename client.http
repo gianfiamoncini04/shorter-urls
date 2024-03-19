@@ -1,0 +1,18 @@
+POST http://localhost:3333/api/link
+Content-Type: application/json
+
+{
+    "code": "youtube",
+    "url": "https://www.youtube.com/"
+}
+
+###
+GET http://localhost:3333/api/link
+
+
+###
+GET http://localhost:3333/youtube
+
+
+###
+GET http://localhost:3333/api/metricas
